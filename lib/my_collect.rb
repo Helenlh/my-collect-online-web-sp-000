@@ -6,9 +6,10 @@ def my_collect(array)
     while i < array.length 
       value = yield array[i]
       puts value
-   i += 1 
+   i += 1
+   
  end 
-   results << value 
+  
 end 
 return results 
 end 
